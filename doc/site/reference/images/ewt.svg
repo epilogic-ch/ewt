@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 18 7">
+  <style>
+    svg {
+      shape-rendering: crispEdges;
+    }
+  </style>
+  <!-- ewt background -->
+  <path d="M0 0 v7 h18 v-6 h-2 v-1 h16 Z" fill="black"/>
+  <g>
+    <!-- e -->
+    <path d="M1 1 h4 v3 h-2 v1 h2 v1 h-4 Z" fill="white"/>
+    <path d="M3 2 v1 h1 v-1 Z" fill="black"/>
+  </g>
+  <g>
+    <!-- w -->
+    <path d="M6 1 h2 v3 h1 v-3 h1 v3 h1 v-3 h1 v5 h-6 Z" fill="white"/>
+  </g>
+  <g>
+    <!-- t -->
+    <path d="M13 1 h2 v1 h2 v1 h-2 v2 h1 v-1 h1 v2 h-4 Z" fill="white"/>
+  </g>
+</svg>

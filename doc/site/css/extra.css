@@ -1,0 +1,32 @@
+a[href] code {
+    text-decoration: underline;
+}
+
+code {
+    color: #C7254E !important;
+    background-color: #F9F2F4 !important;
+}
+
+.ewt-type {
+    color: #a0a0a0;
+}
+
+.ewt-type.optional::after {
+    content: ", optionnel";
+}
+
+.question {
+    font-weight: bold !important;
+}
+
+.experimental::before {
+    content: "experimental   ";
+    color: #a0a0a0;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.md-footer {
+    display: none;
+}

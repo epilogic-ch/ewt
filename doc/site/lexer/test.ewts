@@ -1,0 +1,13 @@
+var foo = "❤";       // création d'une variable dans le scope racine
+
+function bar() {
+  var sub = "sub";    // création d'une variable dans le scope de la fonction
+  foo = "bar";        // modif de valeur de la variable foo du scope racine
+  $logger.debug(foo);
+}
+
+$logger.debug(foo);   // imprime "❤"
+bar();                // imprime "bar"
+$logger.debug(foo);   // imprime "bar"
+$logger.debug(sub);   // génère une erreur car sub n'existe pas
+                      // dans le scope racine
